@@ -30,7 +30,7 @@ public AnalysisResult(int lineCount, int wordCount, int charCount, int uniqueWor
 public int getLineCount(){ return lineCount;}
 public int getWordCount (){ return wordCount;}
 public int getCharCount () { return charCount;}
-public int getUniqueWordCount(){ return uniqueWordCount;}
+public int getUniqueWordCount(){ return UniqueWordCount;}
 public Map<String, Integer> getFrequencyMap() { return frequencyMap;}
 public List<Map.Entry<String, Integer>> getTopWords () { return topWords;}
 
